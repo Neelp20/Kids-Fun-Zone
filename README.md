@@ -5,12 +5,15 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
 
 ##Website Overview
 
-
-Navbar
-Contains links to the Home,Services,About,Gallery and Contact pages.
-
 Header
-Contains Eye catching image with short introduction.
+
+
+Contains Navbar with the links to other pages or to parts within a page.
+also,has a Eye catching image with short introduction.
+
+
+
+
 
 
 
