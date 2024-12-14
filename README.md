@@ -3,13 +3,15 @@ Kids Fun Zone is a website that  provides extensive information about indoor pla
 The goal is to create high-quality website, which is functional and visually appealing.
 View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/) 
 
-##Website Overview
+## Website Overview
 
 Header
 
 
-Contains Navbar with the links to other pages or to parts within a page.
-also,has a Eye catching image with short introduction.
+Contains Navbar with the links to other pages or to parts within.
+Below the Navbar,it has a Eye catching image with short introduction.
+
+
 
 
 
