@@ -13,13 +13,17 @@
 
 
 .navbar {
-    background-color: rgb(224, 105, 8);   
+    /* background-color: rgb(224, 105, 8);   */
+    background-color: #fed500;
 }
 .container #nav-brand{
-    color: white;
+    color: blue;
     text-decoration: none;
     font-weight: bold;
     font-size: larger;
+}
+.container #nav-brand:hover {
+    color: blue;
 }
 #navbar .navbar-brand {
     font-weight: bold;
@@ -32,10 +36,41 @@
 #dropdown-menu .text-white a{
     color: bisque;
 } 
-#navbarNav #party-form-button  {
+#navbarNav #form-button  {
     border: 2px solid rgb(41, 206, 91);
     background-color: rgb(226, 226, 45);
     box-shadow: inset;
+}
+#navbarNav #form-button:hover {
+color: blue;
+background-color: rgb(73, 185, 9);
+font-weight: bold;
+}
+
+/* Footer section */
+#contact {
+    /* background-color:rgb(224, 105, 8);  */
+    background-color: #fed500;
+    color: blue;
+    
+}
+#contact h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#contact h2:hover {
+    color: blue;
+}
+#contact .sub-heading {
+    color: black;
+}
+#contact ul {
+    list-style-type: none;
+    font-size: 1.8rem;
+    
+}
+#contact ul i:hover {
+    color: rgb(226, 226, 45);
 }
 
 
