@@ -52,6 +52,32 @@ font-weight: bold;
     width: 100%;
     height: 500px;
 }
+/* about us */
+/* #about .about-image {
+    background: url(../images/indoorpictures/indoor2.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+    opacity: 0.5;
+    color: blue;
+    font-size: larger;
+} */
+
+ #image-right {
+    /* display: inline-block; */
+    /* margin: 0 0.5rem; */
+    animation: bounce;
+    animation-duration: 800ms;
+    background-image: url(../images/indoorpictures/indoor2.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+    border: 2px solid red;
+ }
+ #image-right img {
+    border-radius: 50%;
+ }
 
 
 /* Footer section */
