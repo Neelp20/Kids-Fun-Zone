@@ -22,6 +22,7 @@
     font-weight: bold;
     font-size: larger;
     animation: flipOutY;
+    
     animation-duration: 800ms;
 }
 .container #nav-brand:hover {
@@ -64,18 +65,20 @@ font-weight: bold;
     font-size: larger;
 } */
 
+#about {
+    background-color: bisque;
+}
+
  #image-right {
     display: inline-block;
-    margin: 0 0.5rem;
     /* animation: flipInY; */
     animation-duration: 800ms;
     background-image: url(../images/indoorpictures/indoor2.jpg);
     background-size: cover;
     height: 300px;
     width: 300px;
-    border-radius: 50%;
     
-    border: 2px solid red;
+    
  }
  #image-right img {
     border-radius: 50%;
@@ -122,3 +125,30 @@ font-weight: bold;
     }
     
 } */
+
+@media screen and (min-width:425px) {
+    #image-right {
+        width: 380px;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    #image-right {
+        width: 363px;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    #image-right {
+        width: 492px;
+    }
+    
+}
+@media screen and (min-width:1400px) {
+    #image-right {
+        width: 400px;
+    }
+    
+}
