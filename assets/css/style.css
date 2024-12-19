@@ -92,11 +92,13 @@ font-weight: bold;
  } */
 
  /* gallery/header */
- .section {
-    padding-top: 4rem;
- }
+
  .section {
     margin-bottom: 2rem;
+    
+ }
+ #header h1 {
+    margin-top: 55px;
  }
 
 /* Footer section */
