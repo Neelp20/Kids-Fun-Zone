@@ -156,7 +156,10 @@ font-weight: bold;
         width: 400px;
     }
 
-    #services .card-height {
+    /* #services .card-height {
+        min-height: 252px;
+    } */
+    #services .card-body {
         min-height: 252px;
     }
     
