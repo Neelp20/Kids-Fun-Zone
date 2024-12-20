@@ -13,7 +13,6 @@
 
 
 .navbar {
-    /* background-color: rgb(224, 105, 8);   */
     background-color: #fed500;
 }
 .container #nav-brand{
@@ -21,8 +20,7 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    animation: flipOutY;
-    
+    animation: flipOutY;  
     animation-duration: 800ms;
 }
 .container #nav-brand:hover {
@@ -49,6 +47,7 @@ color: blue;
 background-color: rgb(73, 185, 9);
 font-weight: bold;
 }
+
 /* hero section */
 #hero {
     
@@ -91,7 +90,7 @@ font-weight: bold;
     animation-duration: 800ms;
  } */
 
- /* gallery/header */
+ /* gallery */
 
  .section {
     margin-bottom: 2rem;
@@ -105,11 +104,18 @@ font-weight: bold;
  /* Form section */
  #booking-form {
     background-color: #f5f2f0;
-    /* border: 5px solid #ebb3b3; */
     padding: 20px;
     margin: 100px;
     margin-bottom: 20px;
     border-radius: 5px;   
+ }
+
+ /* Form Received */
+ #form-received {
+    margin-top: 71px;
+ }
+ #form-received a {
+    text-decoration: none;
  }
 
  /* input[type="date"] { */

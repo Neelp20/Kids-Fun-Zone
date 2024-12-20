@@ -18,53 +18,64 @@
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- animate.style -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-        <div class="container">
-            <a class="nav-brand" id="nav-brand" href="index.html">Kids Fun Zone</a>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container">
+                <a class="nav-brand" id="nav-brand" href="index.html">Kids Fun Zone</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- ms-auto will push the navigation links to the right -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" 
-                            href="index.html">Home</a>
-                    </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- ms-auto will push the navigation links to the right -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Our Services</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="bookings.html">Bookings</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Our Services</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>                       
-                    </li>
-                                     
-                    <li class="nav-item">
-                        <a class="btn" id="form-button" href="#contact">Contact Us</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="bookings.html">Bookings</a>
+                        </li>
 
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="btn" id="form-button" href="#contact">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Success page -->
+    
+    <main>
+        <!-- Form received  -->
+         <section id="form-received">
+            <div class="text-center">
+                <h2>Thank you for your interest</h2>
+                <p>You will receive a confirmation email shortly.</p>
+                <p>If you have any further questions or need immediate assistance, please contact on: <a href="phone:0123456789">012 345 6789</a></p>
+            </div>
+         </section>
+    </main>
 
 
     <!-- footer -->
@@ -78,13 +89,12 @@
                 </div>
 
                 <!-- Contact details -->
-                <div class="col-12 col-md-6 col-xl-4">
+                <div class="col-sm">
                     <h3 class="sub-heading">Contact Details</h3>
                     <strong>Opening Hours</strong>
                     <p>Monday-Sunday : 10am-6pm <br>
                         <i class="fa-soli fa-phone"></i>012 345 6789 <br>
                         <i class="fa-solid fa-envelope"></i>sendanemail@kidsfunzone.com <br>
-
                         <strong>
                             <i class="fa-solid fa-location-dot"></i>
                             Kids Fun Zone </strong> <br>
@@ -94,9 +104,9 @@
                     </p>
                 </div>
                 <!-- stay connected -->
-                <div class="col-12 col-md-6 col-xl-4">
+                <div class="col-sm">
                     <h3 class="sub-heading">Stay Connected</h3>
-                    <ul class="social-links" id="social-links">
+                    <ul class="social-links">
                         <li>
                             <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page"
                                 rel="noopener">
@@ -118,7 +128,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>                
+                </div>
             </div>
         </div>
     </footer>
