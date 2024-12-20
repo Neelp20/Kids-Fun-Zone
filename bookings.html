@@ -18,63 +18,85 @@
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- animate.style -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-     <header>
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-        <div class="container">
-            <a class="nav-brand" id="nav-brand" href="index.html">Kids Fun Zone</a>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container">
+                <a class="nav-brand" id="nav-brand" href="index.html">Kids Fun Zone</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- ms-auto will push the navigation links to the right -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" 
-                            href="index.html">Home</a>
-                    </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- ms-auto will push the navigation links to the right -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Our Services</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="bookings.html">Bookings</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Our Services</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>                       
-                    </li>
-                                     
-                    <li class="nav-item">
-                        <a class="btn" id="form-button" href="#contact">Contact Us</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="bookings.html">Bookings</a>
+                        </li>
 
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="btn" id="form-button" href="#contact">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
     <!-- Booking form -->
-     <main>
+    <main>
         <section id="booking-form">
-            <form action="booking-success.html" id="booking-success" method="GET">
+            <div class="booking-form">
                 <h1>Book Now</h1>
+                <form action="booking-success.html" id="booking-success" method="GET">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="firstname" id="fname" placeholder="First name" required="Please fill out this field">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="firstname" id="lname" placeholder="Last name" required="Please fill out this field">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email" id="email-address" placeholder="Email Address" required="Please fill out this field">
+                    <!-- <label for="no-kids">Number:</label> -->
+                    <select class="form-select form-select-sm mb-3" aria-label="small select example" id="no-kids">
+                        <option selected>Number of Kids</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <!-- <label for="no-adults">Number of Adults:</label> -->
+                      <select class="form-select form-select-sm" aria-label="Small select example" id="no-adults">
+                        <option selected>Number of Adults</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
 
-            </form>
+                </form>
+            </div>
+            
         </section>
-     </main>
+    </main>
 
 
     <!-- footer -->
@@ -88,13 +110,12 @@
                 </div>
 
                 <!-- Contact details -->
-                <div class="col-12 col-md-6 col-xl-4">
+                <div class="col-sm">
                     <h3 class="sub-heading">Contact Details</h3>
                     <strong>Opening Hours</strong>
                     <p>Monday-Sunday : 10am-6pm <br>
                         <i class="fa-soli fa-phone"></i>012 345 6789 <br>
                         <i class="fa-solid fa-envelope"></i>sendanemail@kidsfunzone.com <br>
-
                         <strong>
                             <i class="fa-solid fa-location-dot"></i>
                             Kids Fun Zone </strong> <br>
@@ -102,13 +123,9 @@
                         Cityname AB3 5BA
 
                     </p>
-
-
-
-
                 </div>
                 <!-- stay connected -->
-                <div class="col-12 col-md-6 col-xl-4">
+                <div class="col-sm">
                     <h3 class="sub-heading">Stay Connected</h3>
                     <ul class="social-links">
                         <li>
@@ -133,15 +150,8 @@
                         </li>
                     </ul>
                 </div>
-
-                
-
             </div>
         </div>
-
-
-
-
     </footer>
 
 
