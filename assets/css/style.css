@@ -155,5 +155,9 @@ font-weight: bold;
     #image-right {
         width: 400px;
     }
+
+    #services .card-height {
+        min-height: 252px;
+    }
     
 }
