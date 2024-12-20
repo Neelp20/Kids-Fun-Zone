@@ -102,6 +102,20 @@ font-weight: bold;
     margin-top: 55px;
  }
 
+ /* Form section */
+ #booking-form {
+    background-color: #e49a50;
+    padding: 20px;
+    margin: 100px;
+    margin-bottom: 20px;
+    
+    
+ }
+
+ /* input[type="date"] { */
+    /* background-color: #d6a472; */
+ /* } */
+
 /* Footer section */
 /* .social-links {
     display: flex;

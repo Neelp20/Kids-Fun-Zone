@@ -69,32 +69,91 @@
     <main>
         <section id="booking-form">
             <div class="booking-form">
-                <h1>Book Now</h1>
-                <form action="booking-success.html" id="booking-success" method="GET">
-                    <label for="fname">First Name</label>
-                    <input type="text" name="firstname" id="fname" placeholder="First name" required="Please fill out this field">
-                    <label for="lname">Last Name</label>
-                    <input type="text" name="firstname" id="lname" placeholder="Last name" required="Please fill out this field">
-                    <label for="email-address">Email Address</label>
-                    <input type="email" name="email" id="email-address" placeholder="Email Address" required="Please fill out this field">
+                <h1 class="text-center pb-3">Book Now</h1>
+                <form class="row g-3" action="booking-success.html" id="booking-success" method="GET">
+                    <div class="col-md-4">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" name="firstname" id="fname" placeholder="First name"
+                            required="Please fill out this field">
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" name="firstname" id="lname" placeholder="Last name"
+                            required="Please fill out this field">
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" class="form-control" name="email" id="email-address"
+                            placeholder="Email Address" required="Please fill out this field">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="select-date">Date</label>
+                        <input type="date" class="form-control">
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="kids-number">Number of Kids</label>
+                        <input type="number" class="form-control">
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="adults-number">Number of Adults</label>
+                        <input type="number" class="form-control">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Any message"
+                            required="Please fill out this field"></textarea>
+                    </div>
+
                     <!-- <label for="no-kids">Number:</label> -->
-                    <select class="form-select form-select-sm mb-3" aria-label="small select example" id="no-kids">
-                        <option selected>Number of Kids</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                      <!-- <label for="no-adults">Number of Adults:</label> -->
-                      <select class="form-select form-select-sm" aria-label="Small select example" id="no-adults">
-                        <option selected>Number of Adults</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
+                    <div class="col-md-4">
+                        <label for="exampleDataList" class="form-label">Please select:</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList"
+                            placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                            <option value="Family Tickets">
+                            <option value="Annual Passes">
+                            <option value="Events">
+
+                        </datalist>
+                        <!-- <input type="checkbox" name="select-option" id="form-option1" value="yes" checked>
+                        <label for="form-option1">Family Tickets</label>
+                        <input type="checkbox" name="select-option" id="form-option2" value="yes" checked>
+                        <label for="form-option2">Annual Passes</label><br>
+                        <input type="checkbox" name="select-option" id="form-option3" value="yes" checked>
+                        <label for="form-option3">Events</label> -->
+
+                        <!-- <select class="form-select form-select-sm mb-3" aria-label="small select example" id="no-kids">
+                            <option selected>Number of Kids</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select> -->
+                    </div>
+                    <!-- <label for="no-adults">Number of Adults:</label> -->
+                    <!-- <div class="col-md-4">
+                        <select class="form-select form-select-sm" aria-label="Small select example" id="no-adults">
+                            <option selected>Number of Adults</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                      </div> -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
 
                 </form>
             </div>
-            
+
         </section>
     </main>
 
