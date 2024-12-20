@@ -103,6 +103,10 @@ font-weight: bold;
  }
 
 /* Footer section */
+/* .social-links {
+    display: flex;
+    justify-content: space-between;
+} */
 #contact {
     /* background-color:rgb(224, 105, 8);  */
     background-color: #fed500;
