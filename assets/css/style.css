@@ -152,6 +152,23 @@ font-weight: bold;
     color: rgb(226, 226, 45);
 }
 
+/* 404 page */
+.container-error {
+    text-align: center;
+}
+.error_img {
+    width: 50%;
+}
+
+
+.back-home a{
+    font-size: 2rem;
+    color: black;
+
+}
+.back-home a:hover {
+    color: blue;
+}
 
 /* Media queries */
 
