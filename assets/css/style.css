@@ -67,6 +67,12 @@ font-weight: bold;
 
 #about {
     background-color: bisque;
+    scroll-margin: 50px;
+    padding-top: 10px;
+}
+#services {
+    scroll-margin: 50px;
+    padding-top: 10px; 
 }
 
  #image-right {
