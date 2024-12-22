@@ -74,6 +74,9 @@ font-weight: bold;
     scroll-margin: 50px;
     padding-top: 10px; 
 }
+#services .img-height {
+    height: 203px;
+}
 
  #image-right {
     display: inline-block;
@@ -198,16 +201,27 @@ font-weight: bold;
     }
     
 }
+
+@media screen and (min-width:1200px) {
+     #services .img-height {
+        height: 173px;
+     }
+}
+
 @media screen and (min-width:1400px) {
     #image-right {
         width: 400px;
     }
 
+    #services .img-height {
+        height: 204px;
+     }
+
     /* #services .card-height {
         min-height: 252px;
     } */
-    #services .card-body {
+    /* #services .card-body {
         min-height: 252px;
-    }
+    } */
     
 }
