@@ -11,6 +11,10 @@
     font-family:"Inter", sans-serif;
 }
 
+body {
+    padding-top: 56px;
+}
+
 
 .navbar {
     background-color: #fed500;
