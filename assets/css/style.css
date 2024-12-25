@@ -13,6 +13,7 @@
 
 body {
     padding-top: 56px;
+    background-color:rgb(247, 230, 210) ;
 }
 
 
@@ -60,6 +61,15 @@ font-weight: bold;
     height: 600px;
 }
 /* about us */
+/* #about-section {
+    background-color: bisque;
+    border-radius: 5px;
+} */
+.image-right {
+    background: url(../images/indoorpictures/indoor2.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+}
 /* #about .about-image {
     background: url(../images/indoorpictures/indoor2.jpg) no-repeat center center/cover;
     width: 100%;
@@ -69,11 +79,11 @@ font-weight: bold;
     font-size: larger;
 } */
 
-#about {
+/* #about {
     background-color: bisque;
     scroll-margin: 50px;
     padding-top: 10px;
-}
+} */
 #services {
     scroll-margin: 50px;
     padding-top: 10px; 
@@ -82,22 +92,19 @@ font-weight: bold;
     height: 203px;
 }
 
- #image-right {
+ /* #image-right {
     display: inline-block;
-    /* animation: flipInY; */
     animation-duration: 800ms;
     background-image: url(../images/indoorpictures/indoor2.jpg);
     background-size: cover;
     height: 300px;
-    width: 300px;
-    
-    
- }
- #image-right img {
+    width: 300px;    
+ } */
+ /* #image-right img {
     border-radius: 50%;
     display: inline-block;
     margin: 0 0.5rem;
- }
+ } */
  /* .text-center h1 {
     animation: flipInY;
     animation-duration: 800ms;
@@ -144,6 +151,8 @@ font-weight: bold;
     /* background-color:rgb(224, 105, 8);  */
     background-color: #fed500;
     color: blue;
+    /* background-color: #FFFCE5;
+    color: #214ACA; */
     
 }
 #contact h2 {
@@ -185,7 +194,7 @@ font-weight: bold;
 
 /* Media queries */
 
-@media screen and (min-width:425px) {
+/* @media screen and (min-width:425px) {
     #image-right {
         width: 401px;
     }
@@ -204,7 +213,7 @@ font-weight: bold;
         width: 492px;
     }
     
-}
+} */
 
 @media screen and (min-width:1200px) {
      #services .img-height {
@@ -213,9 +222,9 @@ font-weight: bold;
 }
 
 @media screen and (min-width:1400px) {
-    #image-right {
+    /* #image-right {
         width: 400px;
-    }
+    } */
 
     #services .img-height {
         height: 204px;

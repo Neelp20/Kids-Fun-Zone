@@ -21,46 +21,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-        <div class="container">
-            <a class="nav-brand" id="nav-brand" href="index.html">Kids Fun Zone</a>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container">
+                <a class="nav-brand" id="nav-brand" href="index.html">Kids Fun Zone</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- ms-auto will push the navigation links to the right -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Our Services</a>
-                    </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- ms-auto will push the navigation links to the right -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Our Services</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="bookings.html">Bookings</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bookings.html">Bookings</a></li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
 
 
-                    <li class="nav-item">
-                        <a class="btn" id="form-button" href="#contact">Contact Us</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="btn" id="form-button" href="#contact">Contact Us</a>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>      
+        </nav>
     </header>
 
     <main>
@@ -69,15 +69,49 @@
             <!-- <div id="fun-text">
                 <h3>Your Kids Ultimate Fun Center</h3></div> -->
         </section>
-        
+
         <!-- About us -->
-        <section id="about">
+        <section class="container" id="about">
+            <div class="row">
+                <h2 class="text-center my-4">Who are we</h2>
+                <div class="col-12 col-xl-6 text-center text-xl-start">
+                    
+                    <h3>About Us</h3>
+                    <p class="my-4">
+                        
+                        Welcome to Kids Fun Zone, your ultimate destination for family-friendly entertainment.
+                        We believe in craeting a magical and stimulationg environment where children can play, learn
+                        and grow.
+                        Our indoor playground is designed for kids of all ages, ensuring safe, fun and engaging experience.
+                    </p>
+                    <h4>Our Mission</h4>
+                    <p class="my-4">
+                        Our mission is to provide and secure space where children can use their creativity and energy.
+                        We are committed to offer a variety of activities that not only entertain but also foster social,
+                        cognitive and physical development.
+                    </p>
+                    <h5>What we offer</h5>
+                    <p class="my-4">
+                        Our top priority is the safety and well being of every child.
+                        Our play areas are equipped with soft, cushioned surfaces and are regularly sanitized to 
+                        maintain a high standard of hygiene.
+                    </p>
+
+                </div>
+                <!-- image -->
+                <div class="col-12 col-xl-6">
+                    <div class="image-right"></div>
+
+                </div>
+            </div>
+        </section>
+        <!-- <section id="about">
             <div class="container about-section">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <h1>About Us</h1>
                     </div>
-                    <!-- for left -->
+                    
                     <div class="col-12 col-md-6 col-xl-4 text-center">
                         <h2>
                             Your Kids Ultimate Amusement Center
@@ -86,18 +120,17 @@
                             Our aim is to provide safe and<br> stimulating environment.
                         </P>
                     </div>
-                    <!-- for right -->
+                    
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="about-image">
                             <div id="image-right">
-                                <!-- <img src="assets/images/indoorpictures/indoor2.jpg" height="300px"  width="300px" alt="" class="float-end"> -->
-                                <!-- <h1 class="animate__animated animate__bounce my-element animate__repeat-2">Kids Fun Zone</h1> -->
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Our services -->
 
@@ -198,7 +231,7 @@
                     <p>Mon-Sun : 10am-6pm <br>
                         <p>Phone: <a href="tel:123456789">012 345 6789</a></p>
                         <p>Email: <a href="mailto:send@kidsfunzone.com">send@kidsfunzone.com</a></p>
-                        
+
                         <strong>
                             <i class="fa-solid fa-location-dot"></i>
                             Kids Fun Zone </strong> <br>
@@ -253,26 +286,26 @@
     <script src="https://kit.fontawesome.com/bd728e390a.js" crossorigin="anonymous"></script>
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-  <script>
-    document
-      .querySelectorAll(".navbar-collapse .nav-link")
-      .forEach((link) => {
-        link.addEventListener("click", function (e) {
-          let section = document.querySelector(e.target.getAttribute("href"));
-          if (section) {
-            e.preventDefault(); // Prevent default anchor click behavior
-            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-            window.scroll({
-              top: section.offsetTop - navbarHeight, // Adjust for navbar height
-              behavior: "smooth",
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
             });
-            document
-              .querySelector(".navbar-collapse")
-              .classList.remove("show"); // Collapse navbar
-          }
-        });
-      });
-  </script>
+    </script>
 </body>
 
 </html>
