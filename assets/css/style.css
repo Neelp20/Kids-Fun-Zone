@@ -61,29 +61,13 @@ font-weight: bold;
     height: 600px;
 }
 /* about us */
-/* #about-section {
-    background-color: bisque;
-    border-radius: 5px;
-} */
+
 .image-right {
     background: url(../images/indoorpictures/indoor2.jpg) no-repeat center center/cover;
     width: 100%;
     height: 500px;
 }
-/* #about .about-image {
-    background: url(../images/indoorpictures/indoor2.jpg) no-repeat center center/cover;
-    width: 100%;
-    height: 300px;
-    opacity: 0.5;
-    color: blue;
-    font-size: larger;
-} */
 
-/* #about {
-    background-color: bisque;
-    scroll-margin: 50px;
-    padding-top: 10px;
-} */
 #services {
     scroll-margin: 50px;
     padding-top: 10px; 
@@ -91,24 +75,6 @@ font-weight: bold;
 #services .img-height {
     height: 203px;
 }
-
- /* #image-right {
-    display: inline-block;
-    animation-duration: 800ms;
-    background-image: url(../images/indoorpictures/indoor2.jpg);
-    background-size: cover;
-    height: 300px;
-    width: 300px;    
- } */
- /* #image-right img {
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 0.5rem;
- } */
- /* .text-center h1 {
-    animation: flipInY;
-    animation-duration: 800ms;
- } */
 
  /* gallery */
 
