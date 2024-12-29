@@ -24,6 +24,10 @@ body {
     background-color: #fed500;
 }
 
+/* .section {
+    padding-top: 4rem;
+} */
+
 .container #nav-brand{
     color: black;
     text-decoration: none;
@@ -76,8 +80,9 @@ font-weight: bold;
 /* services section */
 #services {
     scroll-margin: 50px;
-    padding-top: 10px; 
+    padding-top: 5px; 
 }
+
 #services .img-height {
     height: 203px;
 }
@@ -86,9 +91,9 @@ font-weight: bold;
 
  .section {
     margin-bottom: 2rem;
-    margin-top: 2rem;
-    
+    margin-top: 2rem;  
  }
+
  #header h1 {
     margin-top: 55px;
  }
