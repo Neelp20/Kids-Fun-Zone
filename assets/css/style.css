@@ -176,7 +176,7 @@ footer {
 
 /* 404 page */
 
-.error_img {
+.error_img img {
     width: 300px;
     height: 300px;
 }
