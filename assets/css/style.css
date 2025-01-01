@@ -175,22 +175,14 @@ footer {
 
 
 /* 404 page */
-.container-error {
-    text-align: center;
-}
+
 .error_img {
-    width: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 
-.back-home a{
-    font-size: 2rem;
-    color: black;
 
-}
-.back-home a:hover {
-    color: blue;
-}
 
 /* Media queries */
 
