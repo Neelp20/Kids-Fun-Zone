@@ -23,16 +23,88 @@
 <body class="d-flex flex-column min-vh-100">
 
     <header>
-        <a href="index.html">
-            <img src="assets/images/monkey.jpg" alt="frustrated monkey" class="error_img">
-        </a>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container">
+                <a class="nav-brand" id="nav-brand" href="index.html">Kids Fun Zone</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- ms-auto will push the navigation links to the right -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="bookings.html">Bookings</a></li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="btn" id="form-button" href="#contact">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
     </header>
 
 <main class="text-center">
+    <img src="assets/images/monkey.webp" alt="frustrated monkey" class="error_img">
     <h1>404 - NOT FOUND</h1>
     <p class="back-home">Oops, looks like the page you are looking for doesn't exist<a href="index.html">Back</a></p>
 </main>
 
     
+<!-- footer -->
+    <!-- mt-auto is added to push the footer down -->
+    <footer class="mt-auto" id="contact">
+        <div class="contact-info text-center">
+            <p><i class="fa-solid fa-phone"></i> <a href="tel:01123456789">01 1234 567 89</a></p>
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:send@kidsfunzone.com">send@kidsfunzone.com</a></p>
+        </div>
+        <div class="locate-us text-center">
+            <p>Mon-Sun: 10am-6pm <br>
+                <strong>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Kids Fun Zone </strong> <br>
+                The Big Shopping Center,<br>
+                Cityname AB3 5BA
+            </p>
+        </div>
+        <div class="social-links">
+            <h4 class="text-center">Stay Connected</h4>
+            <ul class="text-center">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit my Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit my instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit my twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
