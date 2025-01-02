@@ -79,7 +79,7 @@ font-weight: bold;
 
 /* services section */
 #services, #about {
-    /* scroll-margin: 200px; */
+    /* scroll-margin: 50px; */
     padding: 20px 0 ; 
 }
 
@@ -109,7 +109,7 @@ font-weight: bold;
 
  /* Form Received */
  #form-received {
-    margin-top: 71px;
+    margin-top: 250px;
  }
  #form-received a {
     text-decoration: none;
