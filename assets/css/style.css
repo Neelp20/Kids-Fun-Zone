@@ -17,6 +17,10 @@ body {
     
 }
 
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
+}
+
 
 .navbar {
     background-color: #fed500;
