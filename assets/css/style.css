@@ -52,7 +52,8 @@ body {
 #navbarNav #form-button  {
     border: 2px solid rgb(41, 206, 91);
     background-color: rgb(226, 226, 45);
-    box-shadow: inset;
+    /* remove box-shadow , since its not making any difference */
+    /* box-shadow: inset; */
 }
 #navbarNav #form-button:hover {
 color: blue;
@@ -161,7 +162,7 @@ footer {
     color: blue;
     font-size: 150%;
     margin: 4% 5%;
-    padding: 1 2%;
+    padding: 1% 2%;
 
 }
 
