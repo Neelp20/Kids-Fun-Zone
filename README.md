@@ -98,7 +98,17 @@ Booking Form
 
 ![Booking form small screen](docs/readme_images/bookingsmall.webp)
 <br><br>
+Booking Form Success Page
+<br><br>
 
+![Booking form success page large screen](docs/readme_images/successpagelarge.webp)
+![Booking form success page small screen](docs/readme_images/successpage1_wireframes.webp)
+<br><br>
+Gallery Page
+<br><br>
+
+![Gallery page large screen](docs/readme_images/gallerylarge.webp)
+![Gallery page small screen](docs/readme_images/gallery1_wireframes.webp)
 
 
 
