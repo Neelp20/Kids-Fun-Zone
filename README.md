@@ -110,6 +110,35 @@ Gallery Page
 ![Gallery page large screen](docs/readme_images/gallerylarge.webp)
 ![Gallery page small screen](docs/readme_images/gallery1_wireframes.webp)
 
+## Technologies
+
+* HTML
+  * The structure of the website was developed using HTML5 as the main language.
+* Bootstrap & Custom CSS
+  * The website was styled using Bootstrap and custom CSS in external file.
+* Codeinstitute IDE
+  * The website was developed using codeinstitute IDE, though started with VS Code and switched back to codeinstitute IDE.
+* GitHub
+  * Source code is hosted on GitHub and deployed using Git Pages.
+* Git
+  * Used to to commit and push code during the development of the website.
+* Font Awesome
+  * Icons obtained from https://fontawesome.com/ were used in the footer section.
+* Favicon.io
+  * Favicon files were craeted at https://favicon.io/favicon-converter/
+* Balsamiq
+  * Wireframes were craeted using balsamiq from 
+* pexels.com
+  * Photos and video was downloaded from https://www.pexels.com
+* Tinyjpg
+  * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+* freeconvert.com
+  * Video was compressed from https://www.freeconvert.com/video-compressor/download
+  * Used to convert the PNG file to WEBP
+* https://www.canva.com/
+  * Used to create the cafe image on home page
+* https://daneden.github.io/animate.css
+  * Used on Kids Fun Zone logo
 
 
 
