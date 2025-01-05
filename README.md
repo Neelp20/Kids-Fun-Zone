@@ -80,6 +80,27 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
   * The user should receive the confirmation email in their inbox, after successfully filling out the form.
   * A map should be included to display the distance from Kids Fun Zone to the User's location. 
 
+## Design
+
+### Wireframes
+
+Home page
+<br><br>
+
+![Home page large screen](docs/readme_images/homelarge.webp)
+
+![Home page small screen](docs/readme_images/home1_wireframes.webp)
+<br><br>
+Booking Form
+<br><br>
+
+![Booking form large screen](docs/readme_images/bookinglarge.webp)
+
+![Booking form small screen](docs/readme_images/bookingsmall.webp)
+<br><br>
+
+
+
 
 
 
