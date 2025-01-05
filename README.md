@@ -52,6 +52,22 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
 
 ![Services section](docs/readme_images/services.webp)
 
+* Booking form
+  * A booking form will be implemented to allow users to book the tickets online. The form will consist of the following fields and attributes:
+  * First Name (type=text, required )
+  * Last Name (type=text, required)
+  * Email (type=email, required)
+  * Date (type=date, required)
+  * Number of kids (type=number, required)
+  * Number of adults (type=number, required)
+  * Message (textarea, required)
+  * Datalist (option to choose from,required)
+  * Upon successfully submitting the booking form, the user will be redirected to booking-success.html, where a success message will be displayed.
+
+![Booking form](docs/readme_images/bookings.webp)
+
+![Booking form success](docs/readme_images/booking-success.webp)
+
 
 
 
