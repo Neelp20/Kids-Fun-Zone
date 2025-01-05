@@ -159,6 +159,20 @@ No elements overlap.
 
 Website was tested on the various devices and no responsiveness issues were detected.
 
+### Functional Testing
+
+**Navigation Links**
+
+Testing was conducted to confirm that all navigation links on the respective pages directed users to the correct destinations as per the design. This involved clicking on the navigation links on each page
+
+| Navigation Link | Page to Load |
+| --------------  | ------------ |
+| Home            | index.html   |
+| Bookings        | bookings.html|
+| Gallery         | gallery.html |
+
+Links on all pages navigated to the correct pages as expected
+
 **Booking Form Testing**
 
 The form on the booking section was tested to ensure it fuctioned as expected.
@@ -277,6 +291,10 @@ The behavious was as expected, and my outlook application opened, ready to send 
 The Font Awesome social media icons in the footer were tested to ensure they each opened in a new tab and displayed a hover effect with green color.
 
 Each item opened in a new tab as expected.
+
+
+
+
 
 
 
