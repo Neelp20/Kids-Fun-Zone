@@ -68,6 +68,13 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
 
 ![Booking form success](docs/readme_images/booking-success.webp)
 
+### Gallery Page
+  * The gallery will showcase a selection of photos featuring indoor activities, events and the cafe.
+  * It will be created using a carousel and will be fully responsive on all devices.
+
+![Gallery](docs/readme_images/gallery1.webp)
+![Gallery](docs/readme_images/gallery2.webp)
+
 
 
 
