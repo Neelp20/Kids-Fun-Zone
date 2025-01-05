@@ -162,6 +162,7 @@ Website was tested on the various devices and no responsiveness issues were dete
 **Booking Form Testing**
 
 The form on the booking section was tested to ensure it fuctioned as expected.
+
 All fields in the form section require accurate input.
 
 _Scenario One - Correct Inputs_
@@ -238,6 +239,49 @@ The form does not submit and an Error is displayed to tell the user that the fie
 Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
+
+**Footer Contact Information / Social Media Icons**
+
+**Footer Contact Information**
+
+The phone number and Email Address in the contact information section of the footer was tested to ensure it behaves as expected.
+
+_Steps to test Telephone Number_
+
+1. Navigate to [Kids Fun Zone - Home Page](https://neelp20.github.io/Kids-Fun-Zone/index.html)
+2. Click the phone number in the footer (01 123 456 789)
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behaviour was as expected and the window presented me the options to call.
+
+_Steps to test Email Address_
+
+1. Navigate to [Kids Fun Zone - Home Page](https://neelp20.github.io/Kids-Fun-Zone/index.html)
+2. Click the email address in the footer (send@kidsfunzone.com)
+
+Expected:
+
+A window popup appears, prompting you to choose which application to send an email from, or your default email application automatically opens.
+
+Actual:
+
+The behavious was as expected, and my outlook application opened, ready to send an email to the target address.
+
+**Footer Social Media Links**
+
+The Font Awesome social media icons in the footer were tested to ensure they each opened in a new tab and displayed a hover effect with green color.
+
+Each item opened in a new tab as expected.
+
+
+
+
+
 
 
 
