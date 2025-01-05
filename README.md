@@ -140,6 +140,29 @@ Gallery Page
 * https://daneden.github.io/animate.css
   * Used on Kids Fun Zone logo
 
+## Testing
+### Responsiveness
+
+All pages were tested to ensure they are responsive on screen sizes starting from 320px and above as defined.
+
+Testing Procedures:
+1. Open browser and navigate to [Kids Fun Zone](https://neelp20.github.io/Kids-Fun-Zone/)
+2. Open the developer tools (right click and click on inspect)
+3. Set to responsive and decrease width to 320px
+4. Click and drag the responsive window to maximum width
+
+Expected:
+
+The website is responsive across all screen sizes, with no pixelated or stretched images.
+
+No elements overlap.
+
+Website was tested on the various devices and no responsiveness issues were detected.
+
+
+
+
+
 
 
 
