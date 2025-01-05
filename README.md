@@ -159,6 +159,91 @@ No elements overlap.
 
 Website was tested on the various devices and no responsiveness issues were detected.
 
+**Booking Form Testing**
+
+The form on the booking section was tested to ensure it fuctioned as expected.
+All fields in the form section require accurate input.
+
+_Scenario One - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [Kids Fun Zone - Bookings page](https://neelp20.github.io/Kids-Fun-Zone/bookings.html)
+2. Input the following data:
+  - First name : John
+  - Last name : Kina
+  - Email address :johnkina@test.com
+  - Select date : selected
+  - Number of kids : 1
+  - Number of adults : 2
+  - Any message: None
+  - Choose the type : Family Tickets
+3. Click Submit
+4. User should be redirected to booking-success.html confirmation page
+
+Expected:
+
+Form submits with no warnings or errors as user is redirected to booking-success.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to booking-success.html
+
+_Scenario Two - Missing Required Field Date_
+
+Steps to test:
+
+1. Navigate to [Kids Fun Zone - Bookings page](https://neelp20.github.io/Kids-Fun-Zone/bookings.html)
+2. Input the following data:
+  - First name : John
+  - Last name : Kina
+  - Email address : johnkina@test.com
+  - Select date : Not selected
+  - Number of kids : 1
+  - Number of adults : 2
+  - Any message : None
+  - Choose the type : Family Tickets
+3. Click Submit
+4. User will get the prompt "Please fill out this field"
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Three - Incorrect email format_
+
+Steps to test:
+
+1. Navigate to [Kids Fun Zone - Bookings page](https://neelp20.github.io/Kids-Fun-Zone/bookings.html)
+2. Input the following data:
+  - First name : John
+  - Last name : Kina
+  - Email address : john.kinatest.com
+  - Select date : Not selected
+  - Number of kids : 1
+  - Number of adults : 2
+  - Any message : None
+  - Choose the type : Family Tickets
+3. Click Submit
+4. User will get the prompt "Please include an '@' in the email address.
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+
+
+
+
+
 
 
 
