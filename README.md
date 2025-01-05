@@ -29,6 +29,12 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
 
 ![Favicon](docs/readme_images/faviconbrowser.webp)
 
+* 404 Page
+    * A 404 page will be implemented to display whenever a user encounters a broken link.
+    * The 404 page will allow the user to navigate back to the website, without needing to use the browser's back button.
+
+![404](docs/readme_images/404-image.webp)
+
 
 
 
