@@ -195,14 +195,14 @@ footer {
 
 
 /* 404 page */
-.error_img {
+/* .error_img {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-}
+} */
 .error_img img {
     width: 300px;
     height: 300px;
