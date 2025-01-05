@@ -64,7 +64,7 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
   * Datalist (option to choose from,required)
   * Upon successfully submitting the booking form, the user will be redirected to booking-success.html, where a success message will be displayed.
 
-![Booking form](docs/readme_images/bookings.webp)
+![Booking form](docs/readme_images/bookingscreenshot.webp)
 
 ![Booking form success](docs/readme_images/booking-success.webp)
 
