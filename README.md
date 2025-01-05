@@ -35,6 +35,18 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
 
 ![404](docs/readme_images/404-image.webp)
 
+### Landing page
+   * Image
+      * This will include eye-catching image that provides glimps of the website.
+
+![Landing page image](docs/readme_images/hero-image.webp)
+
+* Website information
+    * Information about 'Kids Fun Zone' and the purpose along with a video showcasing one of the indoor play areas.
+    * Users will have the option to play and pause the video, minimizing distractions while they read the text.
+
+![About Us](docs/readme_images/about.webp)
+
 
 
 
