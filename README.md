@@ -24,6 +24,11 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
 
 ![Footer](docs/readme_images/footer.webp)
 
+* Favicon
+  * A Fevicon will be used as a browser icon for a website, which will help users to identify the website and navigate.
+
+![Favicon](docs/readme_images/faviconbrowser.webp)
+
 
 
 
