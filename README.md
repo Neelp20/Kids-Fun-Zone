@@ -75,6 +75,10 @@ View the live link [here](https://neelp20.github.io/Kids-Fun-Zone/)
 ![Gallery](docs/readme_images/gallery1.webp)
 ![Gallery](docs/readme_images/gallery2.webp)
 
+### Features left to implement
+  * Testimonials
+  * The user should receive the confirmation email in their inbox, after successfully filling out the form.
+  * A map should be included to display the distance from Kids Fun Zone to the User's location. 
 
 
 
