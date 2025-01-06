@@ -107,7 +107,7 @@ Booking Form Success Page
 Gallery Page
 <br><br>
 
-![Gallery page large screen](docs/readme_images/gallerylarge.webp)
+![Gallery page large screen](docs/readme_images/gallerywireframe.webp)
 ![Gallery page small screen](docs/readme_images/gallery1_wireframes.webp)
 
 ## Technologies
