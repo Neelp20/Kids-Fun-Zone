@@ -137,8 +137,7 @@ Gallery Page
   * Used to convert the PNG file to WEBP
 * https://www.canva.com/
   * Used to create the cafe image on home page
-* https://daneden.github.io/animate.css
-  * Used on Kids Fun Zone logo
+
 
 ## Testing
 ### Responsiveness
@@ -291,6 +290,94 @@ The behavious was as expected, and my outlook application opened, ready to send 
 The Font Awesome social media icons in the footer were tested to ensure they each opened in a new tab and displayed a hover effect with green color.
 
 Each item opened in a new tab as expected.
+
+<!-- ### Lighthouse Testing
+
+![Home]()
+
+![Bookings]()
+
+![Gallery]() -->
+
+<!-- ### Validator Testing
+
+HTML
+ - No errors were returned when passing through the official [W3C validator]()
+
+![Home HTML validator results]()
+
+![Bookings HTML validator results]()
+
+![Gallery HTML validator results]()
+
+![404 HTML Validator results]()
+
+-CSS
+- No errors were found when passing through the official [(Jigsaw Validator)]() -->
+
+<!-- ![CSS Validator Results](docs/testing/css_validator.JPG) -->
+
+<!-- ### Unfixed Bugs -->
+
+<!-- ## Deployment
+
+### Version Control
+
+The site was created using the code institute editor and pushed to github
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github. -->
+
+<!-- ### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://neelp20.github.io/Kids-Fun-Zone/  -->
+
+<!-- ### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use. -->
+
+ ## Credits
+  * My mentor [Gareth-McGirr](https://github.com/Gareth-McGirr/) for his insightful advice and encouragement.
+  * code institute
+
+
+### Content 
+
+All content is original, enhanced with some assistance from chat GPT.
+
+### Media 
+
+* Animation used on Kids Fun Zone logo using https://daneden.github.io/animate.css 
+
+
+* All the free images & video used on the site were gotten from https://www.pexels.com/
+
+
+* Used to create the cafe image on home page from https://www.canva.com/
+
+
+
+
+
 
 
 
