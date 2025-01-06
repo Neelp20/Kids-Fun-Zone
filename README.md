@@ -319,20 +319,20 @@ HTML
 
 <!-- ### Unfixed Bugs -->
 
-<!-- ## Deployment
+## Deployment
 
 ### Version Control
 
 The site was created using the code institute editor and pushed to github
-The following git commands were used throughout development to push code to the remote repo:
+The following git commands were used throughout development to push code:
 
 ```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
 
-```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+```git commit -m “commit message”``` - This command was used to commit changes to the repository queue ready for the final step.
 
-```git push``` - This command was used to push all committed code to the remote repository on github. -->
+```git push``` - This command was used to push all committed code on github repository.
 
-<!-- ### Deployment to Github Pages
+### Deployment to Github Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -341,9 +341,9 @@ The following git commands were used throughout development to push code to the 
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
 
-The live link can be found here - https://neelp20.github.io/Kids-Fun-Zone/  -->
+The live link can be found here - https://neelp20.github.io/Kids-Fun-Zone/ 
 
-<!-- ### Clone the Repository Code Locally
+### Clone the Repository Code Locally
 
 Navigate to the GitHub Repository you want to clone to use locally:
 
@@ -353,7 +353,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 - Open your IDE of choice (git must be installed for the next steps)
 - Type git clone copied-git-url into the IDE terminal
 
-The project will now of been cloned on your local machine for use. -->
+The project will now of been cloned on your local machine for use.
 
  ## Credits
   * My mentor [Gareth-McGirr](https://github.com/Gareth-McGirr/) for his insightful advice and encouragement.
