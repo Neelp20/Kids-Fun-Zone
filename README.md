@@ -291,13 +291,13 @@ The Font Awesome social media icons in the footer were tested to ensure they eac
 
 Each item opened in a new tab as expected.
 
-<!-- ### Lighthouse Testing
+### Lighthouse Testing
 
-![Home]()
+![Home](docs/readme_images/homelighthouse.webp)
 
-![Bookings]()
+![Bookings](docs/readme_images/bookingslighthouse.webp)
 
-![Gallery]() -->
+![Gallery](docs/readme_images/gallerylighthouse.webp)
 
 <!-- ### Validator Testing
 
