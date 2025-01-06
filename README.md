@@ -299,23 +299,23 @@ Each item opened in a new tab as expected.
 
 ![Gallery](docs/readme_images/gallerylighthouse.webp)
 
-<!-- ### Validator Testing
+### Validator Testing
 
 HTML
  - No errors were returned when passing through the official [W3C validator]()
 
-![Home HTML validator results]()
+![Home HTML validator results](docs/readme_images/home%20validator.webp)
 
-![Bookings HTML validator results]()
+![Bookings HTML validator results](docs/readme_images/bookingsvalidator.webp)
 
-![Gallery HTML validator results]()
+![Gallery HTML validator results](docs/readme_images/galleryvalidator.webp)
 
-![404 HTML Validator results]()
+![404 HTML Validator results](docs/readme_images/404validator.webp)
 
 -CSS
-- No errors were found when passing through the official [(Jigsaw Validator)]() -->
+- No errors were found when passing through the official [(Jigsaw Validator)](https://jigsaw.w3.org/css-validator/)
 
-<!-- ![CSS Validator Results](docs/testing/css_validator.JPG) -->
+![CSS Validator Results](docs/readme_images/cssvalidator.webp)
 
 <!-- ### Unfixed Bugs -->
 
