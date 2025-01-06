@@ -302,7 +302,7 @@ Each item opened in a new tab as expected.
 ### Validator Testing
 
 HTML
- - No errors were returned when passing through the official [W3C validator]()
+ - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
 ![Home HTML validator results](docs/readme_images/home%20validator.webp)
 
@@ -317,7 +317,9 @@ HTML
 
 ![CSS Validator Results](docs/readme_images/cssvalidator.webp)
 
-<!-- ### Unfixed Bugs -->
+### Unfixed Bugs
+
+Errors are still being displayed on [W3C validator](https://validator.w3.org/) for the animation link, even after attempting to fix it.
 
 ## Deployment
 
