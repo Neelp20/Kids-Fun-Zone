@@ -52,8 +52,6 @@ body {
 #navbarNav #form-button  {
     border: 2px solid rgb(41, 206, 91);
     background-color: rgb(226, 226, 45);
-    /* remove box-shadow , since its not making any difference */
-    /* box-shadow: inset; */
 }
 #navbarNav #form-button:hover {
 color: blue;
@@ -74,7 +72,7 @@ font-weight: bold;
     height: 450px;
 }
 
-/* will prevent the video from getting stretched */
+
 .video-right video{
     height: 100%;
     width: 100%;
@@ -84,7 +82,6 @@ font-weight: bold;
 
 /* services section */
 #services, #about {
-    /* scroll-margin: 50px; */
     padding: 20px 0 ; 
 }
 
@@ -122,10 +119,7 @@ font-weight: bold;
 
 /* Footer section */
 footer {
-    /* justify-content: space-evenly; */
     width: 100%;
-    /* display: flex; */
-    /* flex-direction: column;  */
     color: #000;
     background-color: #fed500;
     border-radius: 5px;
@@ -136,7 +130,6 @@ footer {
    .social-links {
     font-size: large;
     font-weight: 700;
-    /* width: 100%; */
     text-align: end;
     width: 30%;
     padding-top: 1%;
@@ -150,15 +143,8 @@ footer {
     .contact-info {
         width: 30%;
         padding-left: 2%;
-        padding-top: 1%;
-        
+        padding-top: 1%;    
     } 
- 
-
-/* .contact-info {
-    width: 100%;
-    align-items: center;
-} */
 
 .contact-info a {
     text-decoration: none;
@@ -168,10 +154,6 @@ footer {
 .contact-info a:hover {
     color: blue;
 }
-
-
-
-
 .social-links i {
     color: blue;
     font-size: 150%;
@@ -195,20 +177,12 @@ footer {
 
 
 /* 404 page */
-/* .error_img {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-} */
+
 .error_img img {
     width: 300px;
-    height: 300px;
-    /* mix-blend-mode: multiply; */
-    
+    height: 300px;   
 }
+
 .error-container {
     height: 500px;
     width: 500px;
@@ -217,9 +191,6 @@ footer {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
-
-
 
 
 /* Media queries */
@@ -232,42 +203,21 @@ footer {
 
     .social-links {
         width: 100%;
-        /* padding-top: 1%; */
-
     }
+
     .locate-us {
         width: 100%;
-        /* padding-top: 1%; */
+        
     }
 
     .contact-info {
         width: 100%;
         text-align: center;
-        /* padding-left: 2%;
-        padding-top: 1%; */
     } 
-    /* footer {
-        flex-direction: row;
-    } */
-
-    /* .social-links {
-        text-align: center;
-    } */
-
 }
 
-/* @media screen and (max-width:768){
-    #services .card_height {
-        height: 392px;
-    }
-} */
 
 @media screen and (min-width: 576px) and (max-width: 800px) {
-
-    /* footer {
-        flex-direction: row;
-        max-height: 150px;
-    }  */
 
     .social-links {
         width: 30%;
@@ -282,13 +232,10 @@ footer {
 
     .contact-info {
         width: 30%;
-        /* text-align: left; */
         padding-left: 2%;
         padding-top: 1%;
     } 
  }
-
- 
 
 @media screen and (min-width:1200px) {
      #services .img-height {

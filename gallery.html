@@ -66,10 +66,8 @@
     <main>
         <section class="section container" id="header" style="margin-top: 5px;">
             <div class="row soft-play">
-                <!-- Text -->
                 <div class="col-12 col-xl-6 text-center text-xl-start">
                     <h1 class="text-center">Soft Play</h1>
-                    <!-- <p class="display-6 text-center">Soft Play</p> -->
                     <p class="my-4">
                         Our Vibrant soft play area has multi-colored slides,ball pit,tunnels and many more.
                         The structures are designed to ensure safety while providing endless fun for children.
@@ -80,8 +78,6 @@
                         <strong>Come and explore,play and discover the joy of childhood</strong>
                     </p>
                 </div>
-
-                <!-- carousel -->
                 <div class="col-12 col-xl-6">
                     <div class="carousel slide carousel-fade indoor" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -118,7 +114,6 @@
         <section>
             <div class="section container" style="margin-top: 10px; margin-bottom: 10px;">
                 <div class="row">
-                    <!-- carousel -->
                     <div class="col-12 col-xl-6">
                         <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -157,7 +152,6 @@
                     <!-- text -->
                     <div class="col-12 col-xl-6 text-center text-xl-start">
                         <h1 class="text-center">Events and Cafe</h1>
-                        <!-- <p class="display-6 text-center">Events and Cafe</p> -->
                         <p class="my-4">
                             Whether you're planning a birthday party, a family outing, or just a day of fun, Kids Fun
                             Zone
@@ -220,6 +214,28 @@
 
     <!-- Font awsome kit -->
     <script src="https://kit.fontawesome.com/bd728e390a.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
 </body>
 
 </html>
